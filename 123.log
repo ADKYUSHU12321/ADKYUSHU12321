@@ -1,0 +1,672 @@
+SD-WebUI Launcher Diagnostic File
+
+Date: 2022-12-22 19:41:32
+Launcher Version: 1.0.0.7
+Data File Version: 2022-12-17 10:00
+SD-WebUI Version: 828438b4a190759807f9054932cae3a8b880ddf1 (2022-11-20 16:49:06)
+Working Directory: E:\
+------------------------
+System Information: 
+OS: Microsoft Windows NT 10.0.14393.0
+CPU: 8 cores
+Memory Size: 32768 MB
+Page File Size: 4864 MB
+CUDA Version: 11.6
+Available CUDA Engines: 
+    00000000:00:06.0: Tesla T4 (Turing) 16 GB
+------------------------
+Environment Variables: 
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+CLIENTNAME=WIN-3I36MKN3D5O
+NUMBER_OF_PROCESSORS=8
+SystemRoot=C:\Windows
+ProgramData=C:\ProgramData
+windir=C:\Windows
+USERDOMAIN=10_200_0_6
+LOGONSERVER=\\10_200_0_6
+ProgramW6432=C:\Program Files
+ALLUSERSPROFILE=C:\ProgramData
+TEMP=C:\Users\ADMINI~1\AppData\Local\Temp\2
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+PROCESSOR_LEVEL=6
+TMP=C:\Users\ADMINI~1\AppData\Local\Temp\2
+HOMEDRIVE=C:
+COMPUTERNAME=10_200_0_6
+ComSpec=C:\Windows\system32\cmd.exe
+USERPROFILE=C:\Users\Administrator
+LOCALAPPDATA=C:\Users\Administrator\AppData\Local
+HOMEPATH=\Users\Administrator
+PROCESSOR_REVISION=5505
+PROCESSOR_ARCHITECTURE=AMD64
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+OS=Windows_NT
+SESSIONNAME=RDP-Tcp#24
+CommonProgramW6432=C:\Program Files\Common Files
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 85 Stepping 5, GenuineIntel
+USERNAME=Administrator
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\QCloud\Monitor\Barad;C:\Program Files\dotnet\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;
+CommonProgramFiles=C:\Program Files\Common Files
+USERDOMAIN_ROAMINGPROFILE=10_200_0_6
+SystemDrive=C:
+APPDATA=C:\Users\Administrator\AppData\Roaming
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+------------------------
+Paths: 
+Python: E:\py310\python.exe
+Git: E:\git\bin\git.exe
+Cache Path: E:\.cache
+------------------------
+Config: 
+Engine: 0: Tesla T4 (16 GB) [0]
+VRAM Optimization: Full [Full]
+Port: 7860 [7860]
+Xformers: Auto [Auto]
+No Half: False [False]
+No Half VAE: False [False]
+Listen: False [False]
+Share: False [False]
+Ngrok: False [False]
+Ngrok Region:  []
+Server Name:  []
+Freeze Settings: False [False]
+API: False [False]
+No Web UI: False [False]
+UI Debug Mode: False [False]
+Use TextBox Seed: False [False]
+Enable Insecure Extension Access: False [False]
+Disable Safe Unpickle: False [False]
+Allow Code: False [False]
+------------------------
+config.json: 
+{
+    "samples_save": true,
+    "samples_format": "png",
+    "samples_filename_pattern": "",
+    "save_images_add_number": true,
+    "grid_save": true,
+    "grid_format": "png",
+    "grid_extended_filename": false,
+    "grid_only_if_multiple": true,
+    "grid_prevent_empty_spots": false,
+    "n_rows": -1,
+    "enable_pnginfo": true,
+    "save_txt": false,
+    "save_images_before_face_restoration": false,
+    "save_images_before_highres_fix": false,
+    "save_images_before_color_correction": false,
+    "jpeg_quality": 80,
+    "export_for_4chan": true,
+    "use_original_name_batch": false,
+    "save_selected_only": true,
+    "do_not_add_watermark": false,
+    "outdir_samples": "",
+    "outdir_txt2img_samples": "outputs/txt2img-images",
+    "outdir_img2img_samples": "outputs/img2img-images",
+    "outdir_extras_samples": "outputs/extras-images",
+    "outdir_grids": "",
+    "outdir_txt2img_grids": "outputs/txt2img-grids",
+    "outdir_img2img_grids": "outputs/img2img-grids",
+    "outdir_save": "log/images",
+    "save_to_dirs": false,
+    "grid_save_to_dirs": false,
+    "use_save_to_dirs_for_ui": false,
+    "directories_filename_pattern": "",
+    "directories_max_prompt_words": 8,
+    "ESRGAN_tile": 192,
+    "ESRGAN_tile_overlap": 8,
+    "realesrgan_enabled_models": [
+        "R-ESRGAN x4+",
+        "R-ESRGAN x4+ Anime6B"
+    ],
+    "SWIN_tile": 192,
+    "SWIN_tile_overlap": 8,
+    "ldsr_steps": 100,
+    "upscaler_for_img2img": null,
+    "use_scale_latent_for_hires_fix": false,
+    "face_restoration_model": null,
+    "code_former_weight": 0.5,
+    "face_restoration_unload": false,
+    "memmon_poll_rate": 8,
+    "samples_log_stdout": false,
+    "multiple_tqdm": true,
+    "unload_models_when_training": false,
+    "shuffle_tags": false,
+    "tag_drop_out": 0,
+    "save_optimizer_state": false,
+    "dataset_filename_word_regex": "",
+    "dataset_filename_join_string": " ",
+    "training_image_repeats_per_epoch": 1,
+    "training_write_csv_every": 500,
+    "training_xattention_optimizations": false,
+    "sd_model_checkpoint": "NOEYEBROW_36000.ckpt [0ae9634a]",
+    "sd_checkpoint_cache": 0,
+    "sd_vae": "final-prune.vae",
+    "sd_vae_as_default": false,
+    "sd_hypernetwork": "None",
+    "sd_hypernetwork_strength": 1.0,
+    "inpainting_mask_weight": 1.0,
+    "img2img_color_correction": false,
+    "img2img_fix_steps": false,
+    "enable_quantization": false,
+    "enable_emphasis": true,
+    "use_old_emphasis_implementation": false,
+    "enable_batch_seeds": true,
+    "comma_padding_backtrack": 20,
+    "filter_nsfw": false,
+    "CLIP_stop_at_last_layers": 2,
+    "random_artist_categories": [],
+    "interrogate_keep_models_in_memory": false,
+    "interrogate_use_builtin_artists": true,
+    "interrogate_return_ranks": false,
+    "interrogate_clip_num_beams": 1,
+    "interrogate_clip_min_length": 24,
+    "interrogate_clip_max_length": 48,
+    "interrogate_clip_dict_limit": 1500,
+    "interrogate_deepbooru_score_threshold": 0.7,
+    "deepbooru_sort_alpha": false,
+    "deepbooru_use_spaces": false,
+    "deepbooru_escape": true,
+    "show_progressbar": true,
+    "show_progress_every_n_steps": 0,
+    "show_progress_grid": true,
+    "return_grid": true,
+    "do_not_show_images": false,
+    "add_model_hash_to_info": true,
+    "add_model_name_to_info": false,
+    "disable_weights_auto_swap": false,
+    "send_seed": true,
+    "font": "",
+    "js_modal_lightbox": true,
+    "js_modal_lightbox_initially_zoomed": true,
+    "show_progress_in_title": true,
+    "quicksettings": "sd_model_checkpoint",
+    "localization": "zh_CN",
+    "hide_samplers": [],
+    "eta_ddim": 0.0,
+    "eta_ancestral": 1.0,
+    "ddim_discretize": "uniform",
+    "s_churn": 0.0,
+    "s_tmin": 0.0,
+    "s_noise": 1.0,
+    "eta_noise_seed_delta": 31337,
+    "disabled_extensions": [],
+    "images_history_preload": false,
+    "images_history_page_columns": 6.0,
+    "images_history_page_rows": 6.0,
+    "images_history_pages_perload": 20.0
+}
+------------------------
+ui-config.json: 
+{
+    "txt2img/Prompt/visible": true,
+    "txt2img/Prompt/value": "",
+    "txt2img/Negative prompt/visible": true,
+    "txt2img/Negative prompt/value": "",
+    "txt2img/Style 1/value": "None",
+    "txt2img/Style 1/visible": true,
+    "txt2img/Style 2/value": "None",
+    "txt2img/Style 2/visible": true,
+    "txt2img/Sampling Steps/visible": true,
+    "txt2img/Sampling Steps/value": 28,
+    "txt2img/Sampling Steps/minimum": 1,
+    "txt2img/Sampling Steps/maximum": 150,
+    "txt2img/Sampling Steps/step": 1,
+    "txt2img/Sampling method/visible": true,
+    "txt2img/Sampling method/value": "Euler a",
+    "txt2img/Width/visible": true,
+    "txt2img/Width/value": 512,
+    "txt2img/Width/minimum": 64,
+    "txt2img/Width/maximum": 2048,
+    "txt2img/Width/step": 64,
+    "txt2img/Height/visible": true,
+    "txt2img/Height/value": 512,
+    "txt2img/Height/minimum": 64,
+    "txt2img/Height/maximum": 2048,
+    "txt2img/Height/step": 64,
+    "txt2img/Restore faces/visible": true,
+    "txt2img/Restore faces/value": false,
+    "txt2img/Tiling/visible": true,
+    "txt2img/Tiling/value": false,
+    "txt2img/Highres. fix/visible": true,
+    "txt2img/Highres. fix/value": false,
+    "txt2img/Firstpass width/visible": true,
+    "txt2img/Firstpass width/value": 0,
+    "txt2img/Firstpass width/minimum": 0,
+    "txt2img/Firstpass width/maximum": 1024,
+    "txt2img/Firstpass width/step": 64,
+    "txt2img/Firstpass height/visible": true,
+    "txt2img/Firstpass height/value": 0,
+    "txt2img/Firstpass height/minimum": 0,
+    "txt2img/Firstpass height/maximum": 1024,
+    "txt2img/Firstpass height/step": 64,
+    "txt2img/Denoising strength/visible": true,
+    "txt2img/Denoising strength/value": 0.7,
+    "txt2img/Denoising strength/minimum": 0.0,
+    "txt2img/Denoising strength/maximum": 1.0,
+    "txt2img/Denoising strength/step": 0.01,
+    "txt2img/Batch count/visible": true,
+    "txt2img/Batch count/value": 1,
+    "txt2img/Batch count/minimum": 1,
+    "txt2img/Batch count/maximum": 100,
+    "txt2img/Batch count/step": 1,
+    "txt2img/Batch size/visible": true,
+    "txt2img/Batch size/value": 1,
+    "txt2img/Batch size/minimum": 1,
+    "txt2img/Batch size/maximum": 8,
+    "txt2img/Batch size/step": 1,
+    "txt2img/CFG Scale/visible": true,
+    "txt2img/CFG Scale/value": 7.0,
+    "txt2img/CFG Scale/minimum": 1.0,
+    "txt2img/CFG Scale/maximum": 30.0,
+    "txt2img/CFG Scale/step": 0.5,
+    "txt2img/Seed/visible": true,
+    "txt2img/Seed/value": -1.0,
+    "txt2img/Extra/visible": true,
+    "txt2img/Extra/value": false,
+    "txt2img/Variation seed/visible": true,
+    "txt2img/Variation seed/value": -1.0,
+    "txt2img/Variation strength/visible": true,
+    "txt2img/Variation strength/value": 0.0,
+    "txt2img/Variation strength/minimum": 0,
+    "txt2img/Variation strength/maximum": 1,
+    "txt2img/Variation strength/step": 0.01,
+    "txt2img/Resize seed from width/visible": true,
+    "txt2img/Resize seed from width/value": 0,
+    "txt2img/Resize seed from width/minimum": 0,
+    "txt2img/Resize seed from width/maximum": 2048,
+    "txt2img/Resize seed from width/step": 64,
+    "txt2img/Resize seed from height/visible": true,
+    "txt2img/Resize seed from height/value": 0,
+    "txt2img/Resize seed from height/minimum": 0,
+    "txt2img/Resize seed from height/maximum": 2048,
+    "txt2img/Resize seed from height/step": 64,
+    "txt2img/Script/value": "None",
+    "txt2img/Script/visible": true,
+    "customscript/prompt_matrix.py/txt2img/Put variable parts at start of prompt/visible": true,
+    "customscript/prompt_matrix.py/txt2img/Put variable parts at start of prompt/value": false,
+    "customscript/prompts_from_file.py/txt2img/Iterate seed every line/visible": true,
+    "customscript/prompts_from_file.py/txt2img/Iterate seed every line/value": false,
+    "customscript/prompts_from_file.py/txt2img/Use same random seed for all lines/visible": true,
+    "customscript/prompts_from_file.py/txt2img/Use same random seed for all lines/value": false,
+    "customscript/prompts_from_file.py/txt2img/List of prompt inputs/visible": true,
+    "customscript/prompts_from_file.py/txt2img/List of prompt inputs/value": "",
+    "customscript/xy_grid.py/txt2img/X values/visible": true,
+    "customscript/xy_grid.py/txt2img/X values/value": "",
+    "customscript/xy_grid.py/txt2img/Y values/visible": true,
+    "customscript/xy_grid.py/txt2img/Y values/value": "",
+    "customscript/xy_grid.py/txt2img/Draw legend/visible": true,
+    "customscript/xy_grid.py/txt2img/Draw legend/value": true,
+    "customscript/xy_grid.py/txt2img/Include Separate Images/visible": true,
+    "customscript/xy_grid.py/txt2img/Include Separate Images/value": false,
+    "customscript/xy_grid.py/txt2img/Keep -1 for seeds/visible": true,
+    "customscript/xy_grid.py/txt2img/Keep -1 for seeds/value": false,
+    "txt2img/Make Zip when Save?/visible": true,
+    "txt2img/Make Zip when Save?/value": false,
+    "img2img/Prompt/visible": true,
+    "img2img/Prompt/value": "",
+    "img2img/Negative prompt/visible": true,
+    "img2img/Negative prompt/value": "",
+    "img2img/Style 1/value": "None",
+    "img2img/Style 1/visible": true,
+    "img2img/Style 2/value": "None",
+    "img2img/Style 2/visible": true,
+    "img2img/Mask blur/visible": true,
+    "img2img/Mask blur/value": 4,
+    "img2img/Mask blur/minimum": 0,
+    "img2img/Mask blur/maximum": 64,
+    "img2img/Mask blur/step": 1,
+    "img2img/Mask mode/visible": true,
+    "img2img/Mask mode/value": "Draw mask",
+    "img2img/Masking mode/visible": true,
+    "img2img/Masking mode/value": "Inpaint masked",
+    "img2img/Masked content/visible": true,
+    "img2img/Masked content/value": "original",
+    "img2img/Inpaint at full resolution/visible": true,
+    "img2img/Inpaint at full resolution/value": false,
+    "img2img/Inpaint at full resolution padding, pixels/visible": true,
+    "img2img/Inpaint at full resolution padding, pixels/value": 32,
+    "img2img/Inpaint at full resolution padding, pixels/minimum": 0,
+    "img2img/Inpaint at full resolution padding, pixels/maximum": 256,
+    "img2img/Inpaint at full resolution padding, pixels/step": 4,
+    "img2img/Input directory/visible": true,
+    "img2img/Input directory/value": "",
+    "img2img/Output directory/visible": true,
+    "img2img/Output directory/value": "",
+    "img2img/Resize mode/visible": true,
+    "img2img/Resize mode/value": "Just resize",
+    "img2img/Sampling Steps/visible": true,
+    "img2img/Sampling Steps/value": 20,
+    "img2img/Sampling Steps/minimum": 1,
+    "img2img/Sampling Steps/maximum": 150,
+    "img2img/Sampling Steps/step": 1,
+    "img2img/Sampling method/visible": true,
+    "img2img/Sampling method/value": "Euler a",
+    "img2img/Width/visible": true,
+    "img2img/Width/value": 512,
+    "img2img/Width/minimum": 64,
+    "img2img/Width/maximum": 2048,
+    "img2img/Width/step": 64,
+    "img2img/Height/visible": true,
+    "img2img/Height/value": 512,
+    "img2img/Height/minimum": 64,
+    "img2img/Height/maximum": 2048,
+    "img2img/Height/step": 64,
+    "img2img/Restore faces/visible": true,
+    "img2img/Restore faces/value": false,
+    "img2img/Tiling/visible": true,
+    "img2img/Tiling/value": false,
+    "img2img/Batch count/visible": true,
+    "img2img/Batch count/value": 1,
+    "img2img/Batch count/minimum": 1,
+    "img2img/Batch count/maximum": 100,
+    "img2img/Batch count/step": 1,
+    "img2img/Batch size/visible": true,
+    "img2img/Batch size/value": 1,
+    "img2img/Batch size/minimum": 1,
+    "img2img/Batch size/maximum": 8,
+    "img2img/Batch size/step": 1,
+    "img2img/CFG Scale/visible": true,
+    "img2img/CFG Scale/value": 7.0,
+    "img2img/CFG Scale/minimum": 1.0,
+    "img2img/CFG Scale/maximum": 30.0,
+    "img2img/CFG Scale/step": 0.5,
+    "img2img/Denoising strength/visible": true,
+    "img2img/Denoising strength/value": 0.75,
+    "img2img/Denoising strength/minimum": 0.0,
+    "img2img/Denoising strength/maximum": 1.0,
+    "img2img/Denoising strength/step": 0.01,
+    "img2img/Seed/visible": true,
+    "img2img/Seed/value": -1.0,
+    "img2img/Extra/visible": true,
+    "img2img/Extra/value": false,
+    "img2img/Variation seed/visible": true,
+    "img2img/Variation seed/value": -1.0,
+    "img2img/Variation strength/visible": true,
+    "img2img/Variation strength/value": 0.0,
+    "img2img/Variation strength/minimum": 0,
+    "img2img/Variation strength/maximum": 1,
+    "img2img/Variation strength/step": 0.01,
+    "img2img/Resize seed from width/visible": true,
+    "img2img/Resize seed from width/value": 0,
+    "img2img/Resize seed from width/minimum": 0,
+    "img2img/Resize seed from width/maximum": 2048,
+    "img2img/Resize seed from width/step": 64,
+    "img2img/Resize seed from height/visible": true,
+    "img2img/Resize seed from height/value": 0,
+    "img2img/Resize seed from height/minimum": 0,
+    "img2img/Resize seed from height/maximum": 2048,
+    "img2img/Resize seed from height/step": 64,
+    "img2img/Script/value": "None",
+    "img2img/Script/visible": true,
+    "customscript/img2imgalt.py/img2img/Override `Sampling method` to Euler?(this method is built for it)/visible": true,
+    "customscript/img2imgalt.py/img2img/Override `Sampling method` to Euler?(this method is built for it)/value": true,
+    "customscript/img2imgalt.py/img2img/Override `prompt` to the same value as `original prompt`?(and `negative prompt`)/visible": true,
+    "customscript/img2imgalt.py/img2img/Override `prompt` to the same value as `original prompt`?(and `negative prompt`)/value": true,
+    "customscript/img2imgalt.py/img2img/Original prompt/visible": true,
+    "customscript/img2imgalt.py/img2img/Original prompt/value": "",
+    "customscript/img2imgalt.py/img2img/Original negative prompt/visible": true,
+    "customscript/img2imgalt.py/img2img/Original negative prompt/value": "",
+    "customscript/img2imgalt.py/img2img/Override `Sampling Steps` to the same value as `Decode steps`?/visible": true,
+    "customscript/img2imgalt.py/img2img/Override `Sampling Steps` to the same value as `Decode steps`?/value": true,
+    "customscript/img2imgalt.py/img2img/Decode steps/visible": true,
+    "customscript/img2imgalt.py/img2img/Decode steps/value": 50,
+    "customscript/img2imgalt.py/img2img/Decode steps/minimum": 1,
+    "customscript/img2imgalt.py/img2img/Decode steps/maximum": 150,
+    "customscript/img2imgalt.py/img2img/Decode steps/step": 1,
+    "customscript/img2imgalt.py/img2img/Override `Denoising strength` to 1?/visible": true,
+    "customscript/img2imgalt.py/img2img/Override `Denoising strength` to 1?/value": true,
+    "customscript/img2imgalt.py/img2img/Decode CFG scale/visible": true,
+    "customscript/img2imgalt.py/img2img/Decode CFG scale/value": 1.0,
+    "customscript/img2imgalt.py/img2img/Decode CFG scale/minimum": 0.0,
+    "customscript/img2imgalt.py/img2img/Decode CFG scale/maximum": 15.0,
+    "customscript/img2imgalt.py/img2img/Decode CFG scale/step": 0.1,
+    "customscript/img2imgalt.py/img2img/Randomness/visible": true,
+    "customscript/img2imgalt.py/img2img/Randomness/value": 0.0,
+    "customscript/img2imgalt.py/img2img/Randomness/minimum": 0.0,
+    "customscript/img2imgalt.py/img2img/Randomness/maximum": 1.0,
+    "customscript/img2imgalt.py/img2img/Randomness/step": 0.01,
+    "customscript/img2imgalt.py/img2img/Sigma adjustment for finding noise for image/visible": true,
+    "customscript/img2imgalt.py/img2img/Sigma adjustment for finding noise for image/value": false,
+    "customscript/loopback.py/img2img/Loops/visible": true,
+    "customscript/loopback.py/img2img/Loops/value": 4,
+    "customscript/loopback.py/img2img/Loops/minimum": 1,
+    "customscript/loopback.py/img2img/Loops/maximum": 32,
+    "customscript/loopback.py/img2img/Loops/step": 1,
+    "customscript/loopback.py/img2img/Denoising strength change factor/visible": true,
+    "customscript/loopback.py/img2img/Denoising strength change factor/value": 1,
+    "customscript/loopback.py/img2img/Denoising strength change factor/minimum": 0.9,
+    "customscript/loopback.py/img2img/Denoising strength change factor/maximum": 1.1,
+    "customscript/loopback.py/img2img/Denoising strength change factor/step": 0.01,
+    "customscript/outpainting_mk_2.py/img2img/Pixels to expand/visible": true,
+    "customscript/outpainting_mk_2.py/img2img/Pixels to expand/value": 128,
+    "customscript/outpainting_mk_2.py/img2img/Pixels to expand/minimum": 8,
+    "customscript/outpainting_mk_2.py/img2img/Pixels to expand/maximum": 256,
+    "customscript/outpainting_mk_2.py/img2img/Pixels to expand/step": 8,
+    "customscript/outpainting_mk_2.py/img2img/Mask blur/visible": true,
+    "customscript/outpainting_mk_2.py/img2img/Mask blur/value": 8,
+    "customscript/outpainting_mk_2.py/img2img/Mask blur/minimum": 0,
+    "customscript/outpainting_mk_2.py/img2img/Mask blur/maximum": 64,
+    "customscript/outpainting_mk_2.py/img2img/Mask blur/step": 1,
+    "customscript/outpainting_mk_2.py/img2img/Fall-off exponent (lower=higher detail)/visible": true,
+    "customscript/outpainting_mk_2.py/img2img/Fall-off exponent (lower=higher detail)/value": 1.0,
+    "customscript/outpainting_mk_2.py/img2img/Fall-off exponent (lower=higher detail)/minimum": 0.0,
+    "customscript/outpainting_mk_2.py/img2img/Fall-off exponent (lower=higher detail)/maximum": 4.0,
+    "customscript/outpainting_mk_2.py/img2img/Fall-off exponent (lower=higher detail)/step": 0.01,
+    "customscript/outpainting_mk_2.py/img2img/Color variation/visible": true,
+    "customscript/outpainting_mk_2.py/img2img/Color variation/value": 0.05,
+    "customscript/outpainting_mk_2.py/img2img/Color variation/minimum": 0.0,
+    "customscript/outpainting_mk_2.py/img2img/Color variation/maximum": 1.0,
+    "customscript/outpainting_mk_2.py/img2img/Color variation/step": 0.01,
+    "customscript/poor_mans_outpainting.py/img2img/Pixels to expand/visible": true,
+    "customscript/poor_mans_outpainting.py/img2img/Pixels to expand/value": 128,
+    "customscript/poor_mans_outpainting.py/img2img/Pixels to expand/minimum": 8,
+    "customscript/poor_mans_outpainting.py/img2img/Pixels to expand/maximum": 256,
+    "customscript/poor_mans_outpainting.py/img2img/Pixels to expand/step": 8,
+    "customscript/poor_mans_outpainting.py/img2img/Mask blur/visible": true,
+    "customscript/poor_mans_outpainting.py/img2img/Mask blur/value": 4,
+    "customscript/poor_mans_outpainting.py/img2img/Mask blur/minimum": 0,
+    "customscript/poor_mans_outpainting.py/img2img/Mask blur/maximum": 64,
+    "customscript/poor_mans_outpainting.py/img2img/Mask blur/step": 1,
+    "customscript/poor_mans_outpainting.py/img2img/Masked content/visible": true,
+    "customscript/poor_mans_outpainting.py/img2img/Masked content/value": "fill",
+    "customscript/prompt_matrix.py/img2img/Put variable parts at start of prompt/visible": true,
+    "customscript/prompt_matrix.py/img2img/Put variable parts at start of prompt/value": false,
+    "customscript/prompts_from_file.py/img2img/Iterate seed every line/visible": true,
+    "customscript/prompts_from_file.py/img2img/Iterate seed every line/value": false,
+    "customscript/prompts_from_file.py/img2img/Use same random seed for all lines/visible": true,
+    "customscript/prompts_from_file.py/img2img/Use same random seed for all lines/value": false,
+    "customscript/prompts_from_file.py/img2img/List of prompt inputs/visible": true,
+    "customscript/prompts_from_file.py/img2img/List of prompt inputs/value": "",
+    "customscript/sd_upscale.py/img2img/Tile overlap/visible": true,
+    "customscript/sd_upscale.py/img2img/Tile overlap/value": 64,
+    "customscript/sd_upscale.py/img2img/Tile overlap/minimum": 0,
+    "customscript/sd_upscale.py/img2img/Tile overlap/maximum": 256,
+    "customscript/sd_upscale.py/img2img/Tile overlap/step": 16,
+    "customscript/sd_upscale.py/img2img/Upscaler/visible": true,
+    "customscript/sd_upscale.py/img2img/Upscaler/value": "None",
+    "customscript/xy_grid.py/img2img/X values/visible": true,
+    "customscript/xy_grid.py/img2img/X values/value": "",
+    "customscript/xy_grid.py/img2img/Y values/visible": true,
+    "customscript/xy_grid.py/img2img/Y values/value": "",
+    "customscript/xy_grid.py/img2img/Draw legend/visible": true,
+    "customscript/xy_grid.py/img2img/Draw legend/value": true,
+    "customscript/xy_grid.py/img2img/Include Separate Images/visible": true,
+    "customscript/xy_grid.py/img2img/Include Separate Images/value": false,
+    "customscript/xy_grid.py/img2img/Keep -1 for seeds/visible": true,
+    "customscript/xy_grid.py/img2img/Keep -1 for seeds/value": false,
+    "img2img/Make Zip when Save?/visible": true,
+    "img2img/Make Zip when Save?/value": false,
+    "extras/Input directory/visible": true,
+    "extras/Input directory/value": "",
+    "extras/Output directory/visible": true,
+    "extras/Output directory/value": "",
+    "extras/Show result images/visible": true,
+    "extras/Show result images/value": true,
+    "extras/Resize/visible": true,
+    "extras/Resize/value": 4,
+    "extras/Resize/minimum": 1.0,
+    "extras/Resize/maximum": 8.0,
+    "extras/Resize/step": 0.05,
+    "extras/Width/visible": true,
+    "extras/Width/value": 512,
+    "extras/Height/visible": true,
+    "extras/Height/value": 512,
+    "extras/Crop to fit/visible": true,
+    "extras/Crop to fit/value": true,
+    "extras/Upscaler 1/visible": true,
+    "extras/Upscaler 1/value": "None",
+    "extras/Upscaler 2/visible": true,
+    "extras/Upscaler 2/value": "None",
+    "extras/Upscaler 2 visibility/visible": true,
+    "extras/Upscaler 2 visibility/value": 1,
+    "extras/Upscaler 2 visibility/minimum": 0.0,
+    "extras/Upscaler 2 visibility/maximum": 1.0,
+    "extras/Upscaler 2 visibility/step": 0.001,
+    "extras/GFPGAN visibility/visible": true,
+    "extras/GFPGAN visibility/value": 0,
+    "extras/GFPGAN visibility/minimum": 0.0,
+    "extras/GFPGAN visibility/maximum": 1.0,
+    "extras/GFPGAN visibility/step": 0.001,
+    "extras/CodeFormer visibility/visible": true,
+    "extras/CodeFormer visibility/value": 0,
+    "extras/CodeFormer visibility/minimum": 0.0,
+    "extras/CodeFormer visibility/maximum": 1.0,
+    "extras/CodeFormer visibility/step": 0.001,
+    "extras/CodeFormer weight (0 = maximum effect, 1 = minimum effect)/visible": true,
+    "extras/CodeFormer weight (0 = maximum effect, 1 = minimum effect)/value": 0,
+    "extras/CodeFormer weight (0 = maximum effect, 1 = minimum effect)/minimum": 0.0,
+    "extras/CodeFormer weight (0 = maximum effect, 1 = minimum effect)/maximum": 1.0,
+    "extras/CodeFormer weight (0 = maximum effect, 1 = minimum effect)/step": 0.001,
+    "extras/Upscale Before Restoring Faces/visible": true,
+    "extras/Upscale Before Restoring Faces/value": false,
+    "modelmerger/Custom Name (Optional)/visible": true,
+    "modelmerger/Custom Name (Optional)/value": "",
+    "modelmerger/Multiplier (M) - set to 0 to get model A/visible": true,
+    "modelmerger/Multiplier (M) - set to 0 to get model A/value": 0.3,
+    "modelmerger/Multiplier (M) - set to 0 to get model A/minimum": 0.0,
+    "modelmerger/Multiplier (M) - set to 0 to get model A/maximum": 1.0,
+    "modelmerger/Multiplier (M) - set to 0 to get model A/step": 0.05,
+    "modelmerger/Interpolation Method/visible": true,
+    "modelmerger/Interpolation Method/value": "Weighted sum",
+    "modelmerger/Save as float16/visible": true,
+    "modelmerger/Save as float16/value": false,
+    "customscript/aesthetic.py/txt2img/Aesthetic weight/visible": true,
+    "customscript/aesthetic.py/txt2img/Aesthetic weight/value": 0.9,
+    "customscript/aesthetic.py/txt2img/Aesthetic weight/minimum": 0,
+    "customscript/aesthetic.py/txt2img/Aesthetic weight/maximum": 1,
+    "customscript/aesthetic.py/txt2img/Aesthetic weight/step": 0.01,
+    "customscript/aesthetic.py/txt2img/Aesthetic steps/visible": true,
+    "customscript/aesthetic.py/txt2img/Aesthetic steps/value": 5,
+    "customscript/aesthetic.py/txt2img/Aesthetic steps/minimum": 0,
+    "customscript/aesthetic.py/txt2img/Aesthetic steps/maximum": 50,
+    "customscript/aesthetic.py/txt2img/Aesthetic steps/step": 1,
+    "customscript/aesthetic.py/txt2img/Aesthetic learning rate/visible": true,
+    "customscript/aesthetic.py/txt2img/Aesthetic learning rate/value": "0.0001",
+    "customscript/aesthetic.py/txt2img/Slerp interpolation/visible": true,
+    "customscript/aesthetic.py/txt2img/Slerp interpolation/value": false,
+    "customscript/aesthetic.py/txt2img/Aesthetic text for imgs/visible": true,
+    "customscript/aesthetic.py/txt2img/Aesthetic text for imgs/value": "",
+    "customscript/aesthetic.py/txt2img/Slerp angle/visible": true,
+    "customscript/aesthetic.py/txt2img/Slerp angle/value": 0.1,
+    "customscript/aesthetic.py/txt2img/Slerp angle/minimum": 0,
+    "customscript/aesthetic.py/txt2img/Slerp angle/maximum": 1,
+    "customscript/aesthetic.py/txt2img/Slerp angle/step": 0.01,
+    "customscript/aesthetic.py/txt2img/Is negative text/visible": true,
+    "customscript/aesthetic.py/txt2img/Is negative text/value": false,
+    "customscript/aesthetic.py/img2img/Aesthetic weight/visible": true,
+    "customscript/aesthetic.py/img2img/Aesthetic weight/value": 0.9,
+    "customscript/aesthetic.py/img2img/Aesthetic weight/minimum": 0,
+    "customscript/aesthetic.py/img2img/Aesthetic weight/maximum": 1,
+    "customscript/aesthetic.py/img2img/Aesthetic weight/step": 0.01,
+    "customscript/aesthetic.py/img2img/Aesthetic steps/visible": true,
+    "customscript/aesthetic.py/img2img/Aesthetic steps/value": 5,
+    "customscript/aesthetic.py/img2img/Aesthetic steps/minimum": 0,
+    "customscript/aesthetic.py/img2img/Aesthetic steps/maximum": 50,
+    "customscript/aesthetic.py/img2img/Aesthetic steps/step": 1,
+    "customscript/aesthetic.py/img2img/Aesthetic learning rate/visible": true,
+    "customscript/aesthetic.py/img2img/Aesthetic learning rate/value": "0.0001",
+    "customscript/aesthetic.py/img2img/Slerp interpolation/visible": true,
+    "customscript/aesthetic.py/img2img/Slerp interpolation/value": false,
+    "customscript/aesthetic.py/img2img/Aesthetic text for imgs/visible": true,
+    "customscript/aesthetic.py/img2img/Aesthetic text for imgs/value": "",
+    "customscript/aesthetic.py/img2img/Slerp angle/visible": true,
+    "customscript/aesthetic.py/img2img/Slerp angle/value": 0.1,
+    "customscript/aesthetic.py/img2img/Slerp angle/minimum": 0,
+    "customscript/aesthetic.py/img2img/Slerp angle/maximum": 1,
+    "customscript/aesthetic.py/img2img/Slerp angle/step": 0.01,
+    "customscript/aesthetic.py/img2img/Is negative text/visible": true,
+    "customscript/aesthetic.py/img2img/Is negative text/value": false
+}
+------------------------
+Log: 
+Python 3.10.8 (tags/v3.10.8:aaaf517, Oct 11 2022, 16:50:30) [MSC v.1933 64 bit (AMD64)]
+Commit hash: 828438b4a190759807f9054932cae3a8b880ddf1
+Installing requirements for Web UI
+Launching Web UI with arguments: --lowram --max-batch-count 100 --xformers --autolaunch
+E:\py310\lib\site-packages\pkg_resources\__init__.py:123: PkgResourcesDeprecationWarning: ansformers is an invalid version and will not be supported in a future release
+  warnings.warn(
+=====================================
+AUTOMATIC1111/stable-diffusion-webui
+portable packed by bilibili@秋葉aaaki 
+version: v2
+本整合包完全免费
+=====================================
+
+Error loading script: api.py
+Traceback (most recent call last):
+  File "E:\modules\scripts.py", line 184, in load_scripts
+    module = script_loading.load_module(scriptfile.path)
+  File "E:\modules\script_loading.py", line 13, in load_module
+    exec(compiled, module.__dict__)
+  File "E:\extensions\sd_dreambooth_extension\scripts\api.py", line 9, in <module>
+    from extensions.sd_dreambooth_extension.dreambooth import dreambooth
+  File "E:\.launcher\sitecustomize.py", line 10, in import_hook
+    return old_import(*args, **kwargs)
+  File "E:\extensions\sd_dreambooth_extension\dreambooth\dreambooth.py", line 16, in <module>
+    from extensions.sd_dreambooth_extension.dreambooth.utils import reload_system_models, unload_system_models, printm, \
+  File "E:\.launcher\sitecustomize.py", line 10, in import_hook
+    return old_import(*args, **kwargs)
+  File "E:\extensions\sd_dreambooth_extension\dreambooth\utils.py", line 12, in <module>
+    from diffusers import StableDiffusionPipeline, EulerAncestralDiscreteScheduler
+ImportError: cannot import name 'EulerAncestralDiscreteScheduler' from 'diffusers' (E:\py310\lib\site-packages\diffusers\__init__.py)
+
+Error loading script: main.py
+Traceback (most recent call last):
+  File "E:\modules\scripts.py", line 184, in load_scripts
+    module = script_loading.load_module(scriptfile.path)
+  File "E:\modules\script_loading.py", line 13, in load_module
+    exec(compiled, module.__dict__)
+  File "E:\extensions\sd_dreambooth_extension\scripts\main.py", line 3, in <module>
+    from extensions.sd_dreambooth_extension.dreambooth import dreambooth
+  File "E:\.launcher\sitecustomize.py", line 10, in import_hook
+    return old_import(*args, **kwargs)
+  File "E:\extensions\sd_dreambooth_extension\dreambooth\dreambooth.py", line 16, in <module>
+    from extensions.sd_dreambooth_extension.dreambooth.utils import reload_system_models, unload_system_models, printm, \
+  File "E:\.launcher\sitecustomize.py", line 10, in import_hook
+    return old_import(*args, **kwargs)
+  File "E:\extensions\sd_dreambooth_extension\dreambooth\utils.py", line 12, in <module>
+    from diffusers import StableDiffusionPipeline, EulerAncestralDiscreteScheduler
+ImportError: cannot import name 'EulerAncestralDiscreteScheduler' from 'diffusers' (E:\py310\lib\site-packages\diffusers\__init__.py)
+
+LatentDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 859.52 M params.
+making attention of type 'vanilla' with 512 in_channels
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+making attention of type 'vanilla' with 512 in_channels
+
+
+
+
+
+
+Loading weights [0ae9634a] from E:\models\Stable-diffusion\NOEYEBROW_36000.ckpt
+Loading VAE weights from: E:\models\Stable-diffusion\final-prune.vae.pt
+Applying xformers cross attention optimization.
+Model loaded.
+Loaded a total of 0 textual inversion embeddings.
+Embeddings: 
+Running on local URL:  http://127.0.0.1:7860
+
+To create a public link, set `share=True` in `launch()`.
